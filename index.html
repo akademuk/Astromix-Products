@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/style.css">
+
+    <title>Astromix Products</title>
+
+</head>
+
+<body class="page">
+
+    <header class="page__header header">
+        <div class="header__top">
+            <div class="header__logo">
+                <a href="#">
+                    <img width="172" height="44" src="image/Logo.svg" alt="Astromix Products logotype">
+                </a>
+            </div>
+
+            <button class="header__burger" aria-label="Open menu">
+                <span class="burger-icon"></span>
+            </button>
+        </div>
+
+        <div class="header__main">
+            <nav class="header__nav nav">
+                <ul class="header__list">
+                    <li class="header__item"><a href="#dashboard" class="header__link">Dashboard</a></li>
+                    <li class="header__item"><a href="#lab" class="header__link">Lab</a></li>
+                    <li class="header__item header__item--active"><a href="#products" class="header__link">Products
+                            <span class="icon-product__icon-obj5"></span></a></li>
+                    <li class="header__item"><a href="#messages" class="header__link">Messages</a></li>
+                    <li class="header__item"><a href="#settings" class="header__link">Settings</a></li>
+                    <li class="header__item"><a href="#profile" class="header__link">Profile</a></li>
+                    <li class="header__item"><a href="#help" class="header__link">Help</a></li>
+                </ul>
+            </nav>
+
+            <footer class="header__footer footer">
+                <p class="footer__text">Astromix © 2018 – 2020 </p>
+            </footer>
+        </div>
+    </header>
+
+    <main class="page__main main">
+        <section class="products__section section">
+            <div class="products__header">
+                <h2 class="products__title">Products</h2>
+                <div class="products__view-options">
+                    <button id="gridView" class="view-option active">
+                        <img src="image/product-icon-obj1.svg" alt="icon option">
+                    </button>
+                    <button id="listView" class="view-option">
+                        <img src="image/product-icon-obj2.svg" alt="icon option">
+                    </button>
+                    <button id="compactView" class="view-option">
+                        <img src="image/product-icon-obj3.svg" alt="icon option">
+                    </button>
+                    <button id="largeGridView" class="view-option">
+                        <img src="image/product-icon-obj4.svg" alt="icon option">
+                    </button>
+                </div>
+            </div>
+
+            <div class="products__box">
+                <article class="products__item product">
+                    <div class="product__icon">
+                        <img width="60" height="60" src="image/product__icon-obj1.svg" alt="Product Name">
+                    </div>
+                    <div class="product__content">
+                        <h3 class="product__name">Product Name</h3>
+                        <p class="product__description">Text about product</p>
+                    </div>
+                </article>
+                <article class="products__item product">
+                    <div class="product__icon">
+                        <img width="57" height="55" src="image/product__icon-obj2.svg" alt="Product Name">
+                    </div>
+                    <div class="product__content">
+                        <h3 class="product__name">Product Name</h3>
+                        <p class="product__description">Text about product</p>
+                    </div>
+                </article>
+                <article class="products__item product">
+                    <div class="product__icon">
+                        <img width="61" height="60" src="image/product__icon-obj3.svg" alt="Product Name">
+                    </div>
+                    <div class="product__content">
+                        <h3 class="product__name">Product Name</h3>
+                        <p class="product__description">Text about product</p>
+                    </div>
+                </article>
+                <article class="products__item product">
+                    <div class="product__icon">
+                        <img width="63" height="56" src="image/product__icon-obj4.svg" alt="Product Name">
+                    </div>
+                    <div class="product__content">
+                        <h3 class="product__name">Product Name</h3>
+                        <p class="product__description">Text about product with few lines of text</p>
+                    </div>
+                </article>
+                <article class="products__item product">
+                    <div class="product__icon">
+                        <img width="65" height="62" src="image/product__icon-obj5.svg" alt="Product Name">
+                    </div>
+                    <div class="product__content">
+                        <h3 class="product__name">Product Name</h3>
+                        <p class="product__description">Text about product</p>
+                    </div>
+                </article>
+                <article class="products__item product">
+                    <div class="product__icon">
+                        <img width="64" height="62" src="image/product__icon-obj6.svg" alt="Product Name">
+                    </div>
+                    <div class="product__content">
+                        <h3 class="product__name">Product Name</h3>
+                        <p class="product__description">Text about product</p>
+                    </div>
+                </article>
+                <article class="products__item product">
+                    <div class="product__icon">
+                        <img width="64" height="60" src="image/product__icon-obj7.svg" alt="Product Name">
+                    </div>
+                    <div class="product__content">
+                        <h3 class="product__name">Product Name few lines</h3>
+                        <p class="product__description">Text about product</p>
+                    </div>
+                </article>
+                <article class="products__item product">
+                    <div class="product__icon">
+                        <img width="58" height="62" src="image/product__icon-obj8.svg" alt="Product Name">
+                    </div>
+                    <div class="product__content">
+                        <h3 class="product__name">Product Name</h3>
+                        <p class="product__description">Text about product</p>
+                    </div>
+                </article>
+            </div>
+
+            <div class="products__footer">
+                <p class="products__footer-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+        </section>
+    </main>
+
+
+    <script src="script/script.js"></script>
+
+</body>
+
+</html>
