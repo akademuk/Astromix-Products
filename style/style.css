@@ -281,8 +281,8 @@ body {
 }
 
 .products__view-options button img {
-  -o-object-fit: cover;
-     object-fit: cover;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .view-option.active {
